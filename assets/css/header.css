@@ -1,21 +1,11 @@
 @charset "utf-8";
 body {
-<<<<<<< HEAD
 	overflow: visible;
-	font-family: 'Montserrat', sans-serif;
-	background-color: #efefef;
-}
-
-
-.container-fluid .row .col-sm-1.header{
-=======
-	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
 }
 
 
 .container-fluid .row .col-sm-1{
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 	position: relative;
 	background-color: #2e3333;
 	height: 150px;
@@ -44,13 +34,8 @@ h1.h1 {
 	font-size: 20px;
 	font-weight: 500;
 	font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
 	color: #2682c2;
 	background: transparent;
-=======
-	color: #2e3333;
-	background: #2682c2;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -63,20 +48,13 @@ a {
 
 .navbar {
 	border: none;
-<<<<<<< HEAD
 	margin-bottom: 0px;
 	min-height: 0px;
-=======
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 }
 
 
 .navbar-default .navbar-nav > li > a {
-<<<<<<< HEAD
     color: #2682c2;
-=======
-    color: #2e3333;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 }
 
 .navbar-nav {
@@ -110,10 +88,6 @@ a {
 }
 
 .collapsing {
-<<<<<<< HEAD
-=======
-    overflow-y: hidden;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 }
 
 .navbar-toggle {
@@ -131,22 +105,13 @@ a {
 	margin-top: -50px;
 }
 
-<<<<<<< HEAD
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav:focus {
+.navbar-default .navbar-nav:active {
 	background-color: transparent;
 	color: #e8effc;
 }
 
-=======
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: transparent;
-
-}
-
 /* ANIMATED X */
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 .navbar-toggle.x > .icon-bar:nth-of-type(3) {
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
@@ -173,11 +138,8 @@ a {
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
-<<<<<<< HEAD
-=======
 
 /* ANIMATED X COLLAPSED */
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 .navbar-toggle.x.collapsed .icon-bar:nth-of-type(3) {
 	-webkit-transform: rotate(0);
 	-ms-transform: rotate(0);
@@ -195,10 +157,7 @@ a {
 	transform: rotate(0);
 
 }
-<<<<<<< HEAD
-=======
 /* END ANIMATED X */
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #2682c2;
@@ -218,11 +177,7 @@ a {
 }
 
 .nav.collapse.in, .nav.collapsing  {
-<<<<<<< HEAD
 	background-color: #2682c2;
-=======
-	background-color: #FF7000;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 	width:auto;
 }
 
@@ -231,16 +186,7 @@ a {
 	margin: 0px auto;
 	position: absolute;
 	width: 100%;
-<<<<<<< HEAD
 	z-index: 2;
-}
-.navbar-default .navbar-nav > li > a:focus {
-  color: #e8effc;
-}
-.navbar-default .navbar-nav > li > a:active {
-  color: #e8effc;
-=======
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 }
 
 @media (min-width: 991px){
@@ -249,11 +195,7 @@ a {
 	}
 
 	.navbar-nav>li {
-<<<<<<< HEAD
-    display: table-cell;
-=======
         display: table-cell;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 	}
 	.navbar .navbar-collapse{
 		margin-top: -50px;
@@ -264,7 +206,6 @@ a {
     padding-bottom: 0;
     overflow: visible!important;
   }
-<<<<<<< HEAD
 	.navbar-collapse {
     width: 60%;
 		float: right;
@@ -272,19 +213,13 @@ a {
     -webkit-box-shadow: none;
     box-shadow: none;
 	}
-	.nav.collapse.in, .nav.collapsing {
+	.nav.collapse.in {
 		color: #e8effc;
 	}
 }
 
 @media (max-width: 991px){
-	.container-fluid .row .col-sm-1.header{
-=======
-}
-
-@media (max-width: 991px){
 	.container-fluid .row .col-sm-1{
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 		height: 100px;
 	}
 
@@ -301,10 +236,7 @@ a {
 
 	.navbar-collapse {
 		border-top: none;
-<<<<<<< HEAD
-=======
-		overflow-y: hidden;
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
+		/*overflow-y: visible;*/
 		margin-top: 8px;
 	}
 
@@ -349,7 +281,6 @@ a {
 		position: inherit;
 		margin-left: 5%;
 	}
-<<<<<<< HEAD
   .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     display: inherit !important;
 		background-color: transparent;
@@ -362,11 +293,6 @@ a {
 		background-color: transparent;
 		color: #2682c2;
 	}
-=======
-  .navbar-toggle {
-    display: inherit !important;
-  }
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
 }
 
 @media (max-width: 771px) and (min-width: 768px) {
@@ -416,11 +342,7 @@ a {
 	.img {
 		width: 180px;
 	}
-<<<<<<< HEAD
-	.container-fluid .row .col-sm-1.header {
-=======
 	.container-fluid .row .col-sm-1 {
->>>>>>> 06a9791b9c2f4d223e8360eeade0bc72f66e57d6
     height: 70px;
 	}
 	.navbar-default .navbar-toggle .icon-bar  {

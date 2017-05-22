@@ -23,3 +23,18 @@
 .body {
   margin: 15px;
 }
+
+.note {
+  margin: 30px;
+  text-align: center;
+}
+
+.thumbnail > img {
+  height: 300px;
+  text-align: center;
+}
+
+.carousel-inner > .active, .carousel-inner > .item{
+  height: 650px;
+  text-align: -webkit-center;
+}
